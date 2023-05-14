@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.limitador {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: calc(
+    100% - 100px
+  ); /* a largura é a largura total menos 100px (50px para cada lado) */
+}
+/* Menu */
+.bg-info {
+  background-color: #719b54;
+  padding: 0.5rem 0;
+} 
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1.6rem;
+}
+
+.info a {
+    width: 100%;
+    text-decoration: none;
+    color: rgb(241, 241, 241);
+}
+header{
+  position:sticky;
+  z-index:500 ;
+  top: 0; 
+  width: 100%;
+  background-color: white;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 img {
+    width: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 1rem 1.5rem;
+}
+
+nav ul li:hover {
+    background-color: #a0c883;
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/*Artigo 2*/
+.tratamentos {
+}
+
+/*caixa de conteúdo tratamentos*/
+.figure2 {
+  width: 220px;
+  font-size: 1rem;
+  box-shadow: #729b542e 0px 0px 0px 3px;
+  border-radius: 4px;
+}
+
+/*área de alinhamento dos tratamentos*/
+.figura1 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+/*Título artigo 2*/
+.tratamentos h2 {
+  text-align: center;
+  color: rgb(4, 75, 4);
+  font-weight: bolder;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+/*imagens do artigo 2*/
+.tratamentos img{
+  border-radius: 4px;
+  width: 100%;
+  height: 150px;
+}
+/*Titulo h3 tratamentos*/
+.tratamentos h3{
+  margin: 20px;
+  color: rgb(73, 72, 72);
+  text-align: start;
+  font-size: 1.1rem;
+}
+/*texto tratamentos*/
+.tratamentos p{
+  margin: 20px;
+  text-align:start;
+  font-size: 0.9rem;
+  color: #939393;
+}
+
+/*botão saiba mais*/
+.tratamentos button{
+  cursor: pointer;
+  background: #E9EDC9;
+  border: 2px solid transparent;
+  /* position: relative; */
+  /* right: 90px; */
+  margin: 0 20px 20px 20px ;
+  height: 25px;
+  width: 100px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+/*Artigo 3*/
+/* Article cobrindo a imagem e os exemplos */
+#artcl3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+/* Imagem */
+#destaque-cuidado figure img {
+  width: 500px;
+  border-radius: 8px;
+}
+
+/* Seção dos icons, titulos e paragrafos */
+#cuidar {
+  margin: 0 20px 20px 20px;
+
+}
+
+#cuidar h2 {
+  color: #719b54;
+  text-align: center;
+  margin: 0 20px 20px 20px;
+}
+
+#cuidar h3 {
+  color: #719b54;
+}
+
+#cuidar article img {
+ /*  width: 22px;
+  height: 20px; */
+}
+
+#cuidar article {
+  padding: 15px;
+  display: flex;
+  
+}
+#cuidar section{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Artigo 4 */
+
+.autoplay{
+  width: 900px;
+  margin: 0 auto;
+}
+.autoplay img{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  
+}
+.produtos{
+  margin: 10px;
+}
+.produtos h2{
+  font-size: 2rem;
+  text-align: center;
+  margin: 20px;
+  color:#719b54
+}
+.produtos h3{
+  font-size: 0.9rem;
+  margin-left: 10px;
+  margin-top:10px;
+  color: #719b54;
+}
+.autoplay figure{
+  width: 100px;
+  margin: 0 20px;
+}
+.produtos span{
+  display: block;
+}
+.produtos div{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: flex-end;
+  margin: 10px;
+  
+}
+.descricao span:first-child{
+  font-size:0.8rem;
+}
+.slick-prev:before, .slick-next:before {
+  /* !important prioriza essa regra */
+color: black !important;
+}
+
+
+
+/*Artigos 5*/
+.artigo5 {
+  background-image: url(../imagens/fundo\ MeV.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+/*área de alinhamento dos artigos 5*/
+.artigo-voce {
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 10px;
+  width: 250px;
+  /* margin: 50px; */
+  margin-bottom: 20px;
+}
+
+/*caixa de conteúdo artigos 5 para você*/
+#conteudo5 {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+/*Título artigo 5*/
+.artigo5 h2 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  padding: 60px;
+  font-size: 2.5rem;
+}
+
+/*imagens artigo 5*/
+.artigo-voce img{
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*Titulo h3 artigo 5*/
+.artigo-voce h3{
+  margin: 10px;
+  color: rgb(73, 72, 72);
+  text-align: start;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+/*texto artigo 5*/
+.artigo-voce p{
+  margin: 30px;
+  position: relative;
+  bottom: 20px;
+  text-align:start;
+  font-size: 0.9rem;
+}
+
+/*h4 da auriculoterapia*/
+.artigo-voce h4{
+  position: relative;
+  
+  font-size: 1rem;
+}
+/*Lista beneficios*/
+.ul5{
+  text-align: start;
+  position: relative;
+  left: 25px;
+  top: 20px;
+  font-size: 0.9rem;
+}
+
+
+
+/* Artigo 6 */
+.slick-prev.slick-arrow{
+  
+}
+.artigo6 h2{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  color: black;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+.single-item-rtl{
+  
+}
+.single-item-rtl div{
+  
+  margin: 0 auto;
+  width: 500px;
+}
+.single-item-rtl img{
+  display: block;
+  margin: 0 auto;
+}
+.single-item-rtl p{
+  text-align: center;
+  margin-top: 15px;
+  line-height: 20px;
+}

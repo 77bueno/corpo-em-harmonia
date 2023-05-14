@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+}
+
+html { font-size: 14px; }
+
+img { max-width: 100%; }
+
+/* body {
+    background-color: lightseagreen;
+} */
+
+
+.label { display: none; }
+
+.fundo-flor {
+    background-image: url(../imagens/fundo-flor.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.fundo-pedra {
+    background-image: url(../imagens/fundo-bk.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+
+#fundoverde {
+    background-color: #719b54;
+    height: 500px;
+    position: relative;
+}
+
+#form {
+    background-color: white;
+    position: absolute;
+    height: 600px;
+    width: 40%;
+    right:150px;
+    top:-50px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+#form h2 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+#texto {
+    font-family: 'Lexend', sans-serif;
+    text-transform: uppercase;
+    width:30%;
+    height: 200px ;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+input{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-bottom: 2px solid black;
+    width: 210px;
+}
+
+textarea { border: none; }
+textarea { border-bottom: #000000 solid 2px; }
+
+button {
+    margin:5px;
+    background-color: #000000;
+    border:none;
+    border-radius:6px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-family:'Lexend', sans-serif;
+}
+
+button:hover {
+    margin:5px;
+    background-color: #719b54;
+    border:none;
+    border-radius:6px;
+    width: 80px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-family:'Lexend', sans-serif;
+    cursor: pointer;
+}
+
+.p1 {
+    padding: 10px;
+    color: white;
+}
+
+.p2 {
+    padding: 10px;
+    color: white;
+}
+
+.t1 {
+    padding: 10px;
+    color: white;
+}
+
+.t2 {
+    padding: 10px;
+    color: white;
+}
+
+#nome {
+    padding-top: 20px;
+    width:80%;
+    font-size:20px;
+}
+
+#email {
+    padding-top:30px;
+    width:80%;
+    font-size: 20px;
+}
+
+#mensagem {
+    width:80%;
+    font-size: 20px;
+}
