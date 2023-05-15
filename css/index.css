@@ -82,8 +82,30 @@ nav ul li a {
 
 
 
+/* Artigo 1*/
+.position-artigo1{
+  
+}
+.fade{
+  position: relative;
+  opacity: 1;
+  
+}
 
-
+.corpo {
+  position: absolute;
+  top:70px;
+  left:90px;
+  padding: 10px;
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: #939393 1px 1px 5px ;
+  color: #719b54; 
+}
+.slick-slide .img1{
+  margin: 0 auto;
+  width: 100%;
+}
 
 
 
@@ -349,9 +371,6 @@ color: black !important;
   color: black;
   text-transform: capitalize;
   font-size: 2.5rem;
-}
-.single-item-rtl{
-  
 }
 .single-item-rtl div{
   
