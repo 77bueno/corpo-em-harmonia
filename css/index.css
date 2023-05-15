@@ -367,3 +367,15 @@ color: black !important;
   margin-top: 15px;
   line-height: 20px;
 }
+
+/* footer */
+footer{
+  background-color: #719b54;
+  color: white;
+  height: 20vh;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

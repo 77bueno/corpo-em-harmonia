@@ -132,3 +132,15 @@ button:hover {
     width:80%;
     font-size: 20px;
 }
+
+/* footer */
+footer{
+    background-color: #0d0000;
+    color: white;
+    height: 30vh;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
