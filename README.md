@@ -1,2 +1,2 @@
 # Corpo em Harmonia
--- antigo projeto que participei
+antigo projeto que participei
